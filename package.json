@@ -1,0 +1,16 @@
+{
+    "name": "neffos.js.bootstrap.chat",
+    "version": "0.0.1",
+    "scripts": {
+        "browserify": "browserify ./public/assets/js/chat.js -o ./public/assets/js/bundle.js",
+        "minifyES6": "minify ./public/assets/js/bundle.js --outFile ./public/assets/js/bundle.js",
+        "build": "npm run-script browserify && npm run-script minifyES6"
+    },
+    "dependencies": {
+        "neffos.js": "latest"
+    },
+    "devDependencies": {
+        "browserify": "^16.2.3",
+        "babel-minify": "^0.5.0"
+    }
+}
