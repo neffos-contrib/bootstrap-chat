@@ -1,5 +1,7 @@
 # Bootstrap Chat Example
 
+![](screenshot.png)
+
 The only requirement is [Docker](https://docs.docker.com/install/).
 
 ```sh
