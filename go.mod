@@ -1,5 +1,5 @@
 module bootstrap-chat
 
-go 1.13
+go 1.14
 
-require github.com/kataras/neffos v0.0.12
+require github.com/kataras/neffos v0.0.16
