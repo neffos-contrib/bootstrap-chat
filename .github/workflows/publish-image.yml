@@ -14,7 +14,7 @@ jobs:
       run: docker build -t bootstrap-chat:$(date +%s) .
     
     - name: Publish Docker Image
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: neffos/bootstrap-chat
         username: ${{ secrets.DOCKER_USERNAME }}
